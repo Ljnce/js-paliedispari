@@ -37,7 +37,7 @@ var numero = generaRandomMinMax(1, 5);
 
 var somma = scegliUnNumero + numero;
 console.log(somma);
-var somma2 = pariDispari(num);
+var somma2 = pariDispari(somma);
 console.log(somma2);
 
 //Somma numero scelto + numero random

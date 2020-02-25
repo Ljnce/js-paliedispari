@@ -34,9 +34,11 @@ var numero = generaRandomMinMax(1, 5);
  }
  console.log(numero);
 
-
+//Sommo i 2 numeri (numero scelto e random)
 var somma = scegliUnNumero + numero;
 console.log(somma);
+
+//Creo una variabile per
 var somma2 = pariDispari(somma);
 console.log(somma2);
 
@@ -49,7 +51,7 @@ function pariDispari(num) {
     }
 }
 
-if (somma2 == pariDispari) {
+if (somma2 == pariODispari) {
     console.log('hai vinto');
 
 }else {
